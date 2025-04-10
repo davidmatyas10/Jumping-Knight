@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4662508439781123597, guid: 70c81ef708764a74eb9b3b3916084e91, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5087932619635505715, guid: 70c81ef708764a74eb9b3b3916084e91, type: 3}
       propertyPath: m_Name
@@ -180,8 +180,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5087932619635505715, guid: 70c81ef708764a74eb9b3b3916084e91, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8163152501069053442, guid: 70c81ef708764a74eb9b3b3916084e91, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8892855201951598983, guid: 70c81ef708764a74eb9b3b3916084e91, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 138169307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -206,6 +214,10 @@ PrefabInstance:
       objectReference: {fileID: 138169307}
     - target: {fileID: 783940834751706135, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680606038052369557, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
+      propertyPath: useCheckpoint
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3764881647435956043, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
@@ -367,6 +379,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3680606038052369557, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
+      propertyPath: useCheckpoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3764881647435956043, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
       propertyPath: m_Name
       value: FakeFinishLevel (2)
@@ -435,6 +451,10 @@ PrefabInstance:
       objectReference: {fileID: 138169307}
     - target: {fileID: 783940834751706135, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680606038052369557, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
+      propertyPath: useCheckpoint
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3764881647435956043, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}

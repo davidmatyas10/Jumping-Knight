@@ -503,6 +503,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3680606038052369557, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
+      propertyPath: useCheckpoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3764881647435956043, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
       propertyPath: m_Name
       value: FakeFinishLevel
@@ -3489,6 +3493,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9118069232655937292, guid: 97d92ffbc3f2dff4dbef5063a90cfa88, type: 3}
   m_PrefabInstance: {fileID: 1945971616}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &463527903 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 557990898901335830, guid: 97d92ffbc3f2dff4dbef5063a90cfa88, type: 3}
+  m_PrefabInstance: {fileID: 1945971616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &463527904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463527903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edef770a02a08d4581eafce1b556870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 423835024}
+  checkpoints: []
 --- !u!1001 &545437798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3618,6 +3641,10 @@ PrefabInstance:
       objectReference: {fileID: 423835024}
     - target: {fileID: 783940834751706135, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680606038052369557, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
+      propertyPath: useCheckpoint
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3764881647435956043, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
@@ -3756,6 +3783,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3680606038052369557, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
+      propertyPath: useCheckpoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3764881647435956043, guid: 59e0437126a292c4e8d41b7e4563dc4c, type: 3}
       propertyPath: m_Name
       value: FakeFinishLevel (2)
@@ -3857,6 +3888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8892855201951598983, guid: 70c81ef708764a74eb9b3b3916084e91, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 423835024}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7971,7 +8006,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 557990898901335830, guid: 97d92ffbc3f2dff4dbef5063a90cfa88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 463527904}
   m_SourcePrefab: {fileID: 100100000, guid: 97d92ffbc3f2dff4dbef5063a90cfa88, type: 3}
 --- !u!1 &2128308555 stripped
 GameObject:
